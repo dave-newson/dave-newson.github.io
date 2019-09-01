@@ -1,0 +1,63 @@
+body {
+    background: rgb(64,64,64);
+}
+
+body.vegas-container {
+    overflow: auto;
+}
+
+main {
+    width: 100% !important;
+}
+
+main article {
+    max-width: 1000px;
+    background: rgba(0,0,0, 0.5);
+    color: rgb(200,200,200);
+    border: 1px solid rgba(255,255,255,0.5);
+}
+
+main .content {
+    margin: 2em 1em 2em 1em;
+    padding: 0;
+    height: fit-content;
+}
+
+main aside.sidebar {
+    background: rgba(0,0,0, 0.5);
+    color: #fff;
+}
+
+main .sidebar ul li a {
+    color: #aaaaaa;
+}
+
+main .sidebar-toggle {
+    background: transparent;
+}
+
+main .sidebar-toggle span {
+    background: #fff;
+}
+
+main .sidebar-toggle:hover span {
+    background: #00ccff;
+}
+
+.markdown-section h1, 
+.markdown-section h2,
+.markdown-section h3,
+.markdown-section h4,
+.markdown-section h5,
+.markdown-section h6 {
+    color: rgb(255,255,255);
+}
+
+.anchor span {
+    color: rgb(255,255,255);
+    text-decoration: underline #00ccff;
+}
+
+.anchor:hover span {
+    color: #00ccff;
+}
